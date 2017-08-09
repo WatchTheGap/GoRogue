@@ -3,15 +3,33 @@
 
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="bootstrap-theme.css">
     <title>Go Rogue Fit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
   </head>
 
   <body>
-    <h1>Go Rogue Fitness</h1>
-    <main ui-view class="container"></main>
+
+    <header class="jumbotron">
+      <h1 >Go Rogue Fitness</h1>
+    </header>
+
+    <main ui-view class="container col-lg-10 col-xs-12"></main>
+
+
+      <ul class="nav nav-stacked sidebar col-lg-2 col-xs-12">
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">contact</a></li>
+        <li><a href="#">legal</a></li>
+        <li><a href="#">classes</a></li>
+      </ul>
+
+
   </body>
 
   <script src='angular.js'></script>

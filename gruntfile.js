@@ -29,7 +29,7 @@ module.exports = function(grunt) {
         files: [
           {
             cwd: 'src/img',
-            src:['*.jpg'],
+            src:['*.jpg', '*.JPG'],
             dest: 'build/img/',
             expand: true
           }
@@ -63,9 +63,18 @@ module.exports = function(grunt) {
             dest: 'build/',
             expand: true
           }
-
         ]
       },
+      normalize: {
+        files: [
+          {
+            cwd: 'node_modules/normalize.css',
+            src: ['normalize.css'],
+            dest: 'build/',
+            expand: true
+          }
+        ]
+      }
     },
       sass: {
         allSass: {
