@@ -1,9 +1,11 @@
 .sidebar {
-  border: 1px solid black;
+  font-family: 'News Cycle', sans-serif;
+  padding: 10px;
   li {
     background-color: $purple;
     a {
       color: $mustard;
+      font-size: 1.5em;
     }
   }
 }
@@ -13,5 +15,5 @@
   color: $purple;
   transform: scale(1.05);
   transition: 0.25s;
-  font-size: 1.1em;
+  font-size: 1.6em;
 }
