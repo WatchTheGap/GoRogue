@@ -58,7 +58,7 @@ module.exports = function(grunt) {
       bootstrap: {
         files: [
           {
-            cwd: 'node_modules/bootstrap/dist/css',
+            cwd: '',
             src: ['bootstrap.css', 'bootstrap-theme.css'],
             dest: 'build/',
             expand: true

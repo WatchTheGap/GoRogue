@@ -1,16 +1,16 @@
 .sidebar {
   border: 1px solid black;
   li {
-    background-color: $dark;
+    background-color: $purple;
     a {
-      color: $light;
+      color: $mustard;
     }
   }
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
-  background-color: $light;
-  color: $dark;
+  background-color: $mustard;
+  color: $purple;
   transform: scale(1.05);
   transition: 0.25s;
   font-size: 1.1em;
