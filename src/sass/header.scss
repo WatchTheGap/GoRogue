@@ -2,8 +2,14 @@
   float: left;
 }
 .jumbotron {
-  background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(20, 4, 82,1));
+  background-image: linear-gradient(to bottom, rgba(51,51,51,1), rgba(51,51,51,1));
   clear: both;
+  text-align: center;
+  border-bottom: 5px solid $dark;
+  margin: 0 0 15px 0;
+  h1 {
+    color: $light;
+  }
 }
 
 .logo-img {
