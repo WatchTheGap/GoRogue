@@ -1,4 +1,9 @@
 .rogue-img-block {
   border: 1px solid black;
   padding: 10px;
+
+  img {
+    border: 3px solid $coral;
+    border-radius: 5px;
+  }
 }
