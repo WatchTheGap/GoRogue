@@ -1,3 +1,6 @@
 node_modules/
 build/
 .sass-cache/
+email.php
+src/js/email.controller.js
+src/js/email.service.js
