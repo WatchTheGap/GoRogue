@@ -17,8 +17,13 @@
         templateUrl: 'views/home.template.html'
       })
       .state({
+        name: 'about',
+        url: '/about-us',
+        templateUrl: 'views/about.template.html'
+      })
+      .state({
         name: 'contact',
-        url: '/contactus',
+        url: '/contact-us',
         templateUrl: 'views/contact.template.html'
       });
   }
