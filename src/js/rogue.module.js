@@ -25,6 +25,11 @@
         name: 'contact',
         url: '/contact-us',
         templateUrl: 'views/contact.template.html'
+      })
+      .state({
+        name: 'not-found',
+        url: '/not-found',
+        templateUrl: 'views/404.template.html'
       });
   }
 
