@@ -15,6 +15,11 @@
         name: 'home',
         url: '/',
         templateUrl: 'views/home.template.html'
+      })
+      .state({
+        name: 'contact',
+        url: '/contactus',
+        templateUrl: 'views/contact.template.html'
       });
   }
 
