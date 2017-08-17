@@ -1,0 +1,21 @@
+.topnav {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: $gray;
+  border-bottom: 5px solid $purple;
+  li {
+    a {
+      color: $mustard;
+      font-size: 1.5em;
+      letter-spacing: .2em;
+      border: none;
+
+
+    }
+  }
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  border-radius: 0px;
+  background-color: $mint;
+  color: $purple;
+}
