@@ -1,5 +1,12 @@
 .rogue-img-block {
   padding: 10px;
+  position: relative;
+  h1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: $sky;
+  }
 
   img {
     border-right: 5px solid $mustard;
