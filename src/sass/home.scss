@@ -8,9 +8,12 @@
 }
 
 body {
+  padding-top: 54px;
+  background-color: $gray;
   background-image: url('img/image4.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  background-position: 0px 54px;
 }
 
 .title {
