@@ -1,2 +1,20 @@
- .sidebar {
- }
+.rogue-img-block {
+  padding: 10px;
+  position: relative;
+  box-sizing: border-box;
+
+  h1 {
+    margin: 0;
+    height: 100%;
+    padding: 0px 25px 0px 0px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    color: $sky;
+  }
+
+  img {
+    border-right: 5px solid $mustard;
+    border-bottom: 5px solid $mustard;
+  }
+}

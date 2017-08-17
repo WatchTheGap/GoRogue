@@ -1,25 +1,9 @@
-.rogue-img-block {
-  padding: 10px;
-  position: relative;
-  h1 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    color: $sky;
-  }
-
-  img {
-    border-right: 5px solid $mustard;
-    border-bottom: 5px solid $mustard;
-  }
-}
-
 body {
   padding-top: 54px;
   background-color: $gray;
   background-image: url('img/image4.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
   background-position: 0px 54px;
 }
 
