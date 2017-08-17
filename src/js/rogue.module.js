@@ -22,9 +22,19 @@
         templateUrl: 'views/about.template.html'
       })
       .state({
+        name: 'services',
+        url: '/services',
+        templateUrl: 'views/services.template.html'
+      })
+      .state({
         name: 'contact',
         url: '/contact-us',
         templateUrl: 'views/contact.template.html'
+      })
+      .state({
+        name: 'success',
+        url: '/success',
+        templateUrl: 'success.template.html'
       })
       .state({
         name: 'not-found',
