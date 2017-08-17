@@ -4,3 +4,4 @@ build/
 email.php
 email.controller.js
 email.service.js
+.DS_Store
