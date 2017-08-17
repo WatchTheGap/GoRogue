@@ -4,9 +4,12 @@
   box-sizing: border-box;
 
   h1 {
+    font-family: $fonts;
+    top: 10px;
+    left: 10px;
     margin: 0;
     height: 100%;
-    padding: 0px 25px 0px 0px;
+    padding: 1em 25px 0px 0px;
     width: 100%;
     position: absolute;
     text-align: center;
